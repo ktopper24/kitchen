@@ -1,0 +1,26 @@
+.heading {
+  background-image:url("http://www.mallorcarealtors.com/wp-content/uploads/nice-kitchen-in-Establiments.jpg");
+  height: 300px;
+}
+
+.section1 {
+  color:red;
+}
+
+
+.heading h1 {
+  color: white;
+  font-size: 100px;
+}
+
+.row {
+  height: 200px;
+}
+
+.sweet-menu {
+  display: none;
+}
+
+.savory-menu {
+  display: none;
+}
