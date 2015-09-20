@@ -3,20 +3,20 @@
   <head>
     <title>Chat Example</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
-    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="client/css/bootstrap.min.css">
+    <link rel="stylesheet" href="client/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="client/css/home.css">
   </head>
   <body ng-app="KitchenApp">
-    
-  <div class="main" ng-controller="MainController">
+
+  <div class="main" ng-controller="HomeController">
     <div class= "heading">
       <div class= "container">
         <h1>Kay's Kitchen</h1>
       </div>
     </div>
       <div class= "section1">
-        <div class="title1">
+        <div class="title1" ng-click="go('/views/topic')">
         <h2>Breakfast</h2>
         </div>
       <div class= "container">
@@ -78,10 +78,11 @@
         <img></img>
       </div>
   </div>
-  
-    <script src="client/socket.io/socket.io.js"></script>
+
     <script src="client/js/jquery.min.js"></script>
     <script src="client/js/bootstrap.min.js"></script>
     <script src="client/js/angular.min.js"></script>
+    <script src="client/js/app.js"></script>
+    <scipts src="client/js/HomeController.js"></script>
   </body>
 </html>

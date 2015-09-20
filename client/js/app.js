@@ -1,4 +1,4 @@
-var app = angular.Module('KitchenApp', ['ngRoute']);
+var app = angular.module('KitchenApp', ['ngRoute']);
 
 app.config(function($routeProvider) {
     $routeProvider
@@ -6,7 +6,7 @@ app.config(function($routeProvider) {
             controller: 'HomeController',
             templateUrl: 'views/home.html'
         })
-        .when('/:topic', {
+        .when('/topic', {
             controller: 'TopicController',
             templateUrl: 'views/topic.html'
         })
