@@ -4,15 +4,15 @@ app.config(function($routeProvider) {
     $routeProvider
         .when('/', {
             controller: 'HomeController',
-            templateUrl: 'views/home.html'
+            templateUrl: 'client/views/home.html'
         })
-        .when('/topic', {
+        .when('/topic/:place', {
             controller: 'TopicController',
-            templateUrl: 'views/topic.html'
+            templateUrl: 'client/views/topic.html'
         })
-        .when('/:topic/:id', {
+        .when('/topic/:place/:meal', {
             controller: 'RecipeController',
-            templateUrl: 'views/recipe.html'
+            templateUrl: '/client/views/recipe.html'
         })
         .otherwise({
             redirectTo: '/'

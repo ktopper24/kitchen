@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+<div class="main" ng-controller="TopicController">
+  <h2>{{currentPlace.name}}</h2>
+  <h1>{{currentPlace.continent}}</h1>
+
+  <div class="breakfast" ng-click="redirect('Italy', 'Breakfast')">
+  <img ng-src="{{currentPlace.breakfastUrl}}">
+  </div>
+
+  <div class="lunch" ng-click="redirect('Italy', 'Lunch')">
+  <img ng-src="{{currentPlace.lunchUrl}}">
+  </div>
+
+  <div class="dinner" ng-click="redirect('Italy', 'Dinner')">
+  <img ng-src="{{currentPlace.dinnerUrl}}">
+  </div>
+
+  <div class="dessert" ng-click="redirect('Italy', 'Dessert')">
+  <img ng-src="{{currentPlace.dessertUrl}}">
+  </div>
+</div>
+
+</html>

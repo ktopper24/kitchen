@@ -1,1 +1,0 @@
-app.controller('TopicController', ['$scope', function($scope){}]);

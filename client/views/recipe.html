@@ -1,13 +1,15 @@
 <body>
     <div class="main" ng-controller="RecipeController">
+      <div class="recipes" ng-repeat"recipe in recipies">
         <div class="title">
-            {{name}}
+            {{recipe.name}}
         </div>
         <div class ="ingredients">
-            {{ingredients}}
+            {{recipe.ingredients}}
         </div>
         <div class="instructions">
-            {{instructions}}
+            {{recipe.instructions}}
         </div>
     </div>
+  </div>
 </body>

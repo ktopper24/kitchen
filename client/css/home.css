@@ -1,26 +1,85 @@
 .heading {
-  background-image:url("http://www.mallorcarealtors.com/wp-content/uploads/nice-kitchen-in-Establiments.jpg");
-  height: 300px;
+  background-image:url("http://tours.tourfactory.com/tours/media/scene/big2/00/15/41/39/15413926.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.heading h1 {
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.row-fluid {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .section1 {
-  color:red;
+  color: white;
+  position: relative;
+  background-image: url("http://static1.squarespace.com/static/55dfd642e4b071fdb5c58d2d/t/55e067fee4b0edb1e41555a1/1440770046014/Venezia-tourism-guide.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 800px;
 }
 
+.section1 h2 {
+  margin: 0;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.section2 {
+  color: white;
+  position: relative;
+  background-image: url("http://static1.squarespace.com/static/55dfd642e4b071fdb5c58d2d/t/55e067fee4b0edb1e41555a1/1440770046014/Venezia-tourism-guide.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 800px;
+}
+
+.section2 h2 {
+  margin: 0;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.section3 {
+  color: white;
+  position: relative;
+  background-image: url("http://static1.squarespace.com/static/55dfd642e4b071fdb5c58d2d/t/55e067fee4b0edb1e41555a1/1440770046014/Venezia-tourism-guide.jpg");
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 800px;
+}
+
+.section3 h2 {
+  margin: 0;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
 
 .heading h1 {
   color: white;
   font-size: 100px;
 }
 
-.row {
-  height: 200px;
+img {
+  width: 100%;
+  height: auto;
 }
 
-.sweet-menu {
-  display: none;
-}
-
-.savory-menu {
-  display: none;
-}
+.top50 { margin-top:50px; }
