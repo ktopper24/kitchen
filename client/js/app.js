@@ -14,6 +14,10 @@ app.config(function($routeProvider) {
             controller: 'RecipeController',
             templateUrl: '/client/views/recipe.html'
         })
+        .when('/create', {
+          controller: 'CreateController',
+          templateUrl: '/client/views/create.html'
+        })
         .otherwise({
             redirectTo: '/'
         });

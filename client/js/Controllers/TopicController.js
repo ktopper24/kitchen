@@ -3,7 +3,7 @@ app.controller('TopicController', ['$scope', '$location', '$routeParams', functi
     $location.path('/topic/' + place + '/' + meal)
   };
   $scope.place = $routeParams.place;
-  $scope.currentPlace = $scope[$scope.place]
+  $scope.currentPlace = $scope[$scope.place];
   $scope.Italy =
     {
       name: "Italy",

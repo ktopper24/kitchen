@@ -1,3 +1,8 @@
+body {
+    background-color: #FFFFCC;
+    color: #9933CC;
+}
+
 .heading {
   background-image:url("http://tours.tourfactory.com/tours/media/scene/big2/00/15/41/39/15413926.jpg");
   background-repeat: no-repeat;
@@ -10,7 +15,7 @@
   margin-top: 100px;
 }
 
-.row-fluid {
+.row {
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -18,7 +23,8 @@
 .section1 {
   color: white;
   position: relative;
-  background-image: url("http://static1.squarespace.com/static/55dfd642e4b071fdb5c58d2d/t/55e067fee4b0edb1e41555a1/1440770046014/Venezia-tourism-guide.jpg");
+  background-image: url("https://static.pexels.com/photos/1562/italian-landscape-mountains-nature.jpg");
+  background-size: 800px 600px;
   background-repeat: no-repeat;
   height: 800px;
   width: 800px;
@@ -37,7 +43,8 @@
 .section2 {
   color: white;
   position: relative;
-  background-image: url("http://static1.squarespace.com/static/55dfd642e4b071fdb5c58d2d/t/55e067fee4b0edb1e41555a1/1440770046014/Venezia-tourism-guide.jpg");
+  background-image: url("https://static.pexels.com/photos/7539/pexels-photo.jpeg");
+  background-size: 800px 600px;
   background-repeat: no-repeat;
   height: 800px;
   width: 800px;
@@ -56,7 +63,8 @@
 .section3 {
   color: white;
   position: relative;
-  background-image: url("http://static1.squarespace.com/static/55dfd642e4b071fdb5c58d2d/t/55e067fee4b0edb1e41555a1/1440770046014/Venezia-tourism-guide.jpg");
+  background-image: url("https://static.pexels.com/photos/5317/food-salad-restaurant-person.jpg");
+  background-size: 800px 600px;
   background-repeat: no-repeat;
   height: 800px;
   width: 800px;
@@ -82,4 +90,11 @@ img {
   height: auto;
 }
 
-.top50 { margin-top:50px; }
+.top50 {
+  height:50px;
+}
+
+.main2 img {
+  width: 500px;
+  height:auto;
+}

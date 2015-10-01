@@ -1,0 +1,16 @@
+<html>
+<div class="Create" ng-controller="CreateController">
+<div class="title">
+  <h1>Create a new recipe</h1>
+</div>
+{{greeting}}
+<form name="recipe">
+  Name: <input type="text" ng-model="recipe.name"/>
+  Place of origin: <input type="text" ng-model="recipe.place"/>
+  Type of Meal: <input type="text" ng-model="recipe.meal"/>
+  Ingredients: <input type="text" ng-model="recipe.ingredient"/><button ng-click="addIng()">Add Ingredient</button>
+  Instruction: <input type="text" ng-model="recipe.instruction"/><button ng-click="addIns()">Add Instruction</button>
+</form>
+ <buttton ng-click="addRecipe()">Create Recipe</button>
+</div>
+</html>
