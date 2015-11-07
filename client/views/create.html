@@ -1,4 +1,4 @@
-<html>
+
 <div class="Create" ng-controller="CreateController">
 <div class="title">
   <h1>Create a new recipe</h1>
@@ -8,11 +8,9 @@
   Name: <input type="text" ng-model="recipe.name"/>
   Place of origin: <input type="text" ng-model="recipe.place"/>
   Type of Meal: <input type="text" ng-model="recipe.meal"/>
-  Ingredients: <input type="text" ng-model="recipe.ingredient"/><button ng-click="addIng()">Add Ingredient</button>
-  Instruction: <input type="text" ng-model="recipe.instruction"/><button ng-click="addIns()">Add Instruction</button>
+  Ingredients: <input type="text" ng-model="recipe.ingredient"/><button type="button" ng-click="addIng()">Add Ingredient</button>
+  Instruction: <input type="text" ng-model="recipe.instruction"/><button type="button" ng-click="addIns()">Add Instruction</button>
 <button type="submit" class="btn btn-default">Create</button>
 </form>
 </div>
 
-
-</html>

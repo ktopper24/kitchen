@@ -12,5 +12,5 @@ app.controller('RecipeController', ['$scope', '$http', '$routeParams', function(
 
   $http.get('/recipes')
     .then(onComplete, onError);
-;
+
 }]);

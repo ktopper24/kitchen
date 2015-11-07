@@ -14,9 +14,13 @@ app.config(function($routeProvider) {
             controller: 'RecipeController',
             templateUrl: '/client/views/recipe.html'
         })
-        .when('/create', {
+        .when('/createRecipe', {
           controller: 'CreateController',
           templateUrl: '/client/views/create.html'
+        })
+        .when('/createCountry', {
+            controller: 'CountryController',
+            templateUrl: '/client/views/country.html'
         })
         .otherwise({
             redirectTo: '/'
