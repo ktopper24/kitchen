@@ -1,30 +1,36 @@
 
 <div class="main1" ng-controller="HomeController">
 
-<div class="pageTitle">
-  <h2>Where is your kitchen taking you today?</h2>
-</div>
-<div class="container-fluid">
-<div class="row">
-  <div class="span3">
-    <div class= "section1" ng-click="redirect('Italy')">
-      <h2>Italy</h2>
+
+
+  <div class="pageTitle">
+    <h1>Where is your kitchen taking you today?</h1>
+  </div>
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-xs-12 col-md-3">
+          <div class= "section1" ng-click="redirect('Italy')">
+            <h2>Italy</h2>
+            <img ng-src="https://static.pexels.com/photos/1562/italian-landscape-mountains-nature.jpg">
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-3">
+          <div class= "section2" ng-click="redirect('America')">
+            <h2>America</h2>
+            <img ng-src="https://static.pexels.com/photos/7539/pexels-photo.jpeg">
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-3">
+          <div class= "section3" ng-click="redirect('Mexico')">
+            <h2>Mexico</h2>
+            <img ng-src="https://static.pexels.com/photos/5317/food-salad-restaurant-person.jpg">
+          </div>
+        </div>
       </div>
-  </div>
-  <div class="span1">
-  </div>
-  <div class="span3">
-    <div class= "section2" ng-click="redirect('America')">
-      <h2>America</h2>
-    </div>
-  <div class="span1">
-  </div>
-    </div>
-    <div class="span3">
-    <div class= "section3" ng-click="redirect('Mexico')">
-      <h2>Mexico</h2>
     </div>
   </div>
 </div>
-  </div>
-</div>
+

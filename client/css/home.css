@@ -3,11 +3,6 @@ body {
     color: #FAFAD2;
 }
 
-.heading {
-  background-image:url("http://tours.tourfactory.com/tours/media/scene/big2/00/15/41/39/15413926.jpg");
-  background-repeat: no-repeat;
-  height: 500px;
-}
 
 .heading h1 {
   text-align: left;
@@ -20,81 +15,53 @@ body {
   margin-right: 50px;
 }
 
-.section1 {
-  color: white;
-  position: relative;
-  background-image: url("https://static.pexels.com/photos/1562/italian-landscape-mountains-nature.jpg");
-  background-size: 800px 600px;
-  background-repeat: no-repeat;
-  height: 800px;
-  width: 800px;
-}
-
-.section1 h2 {
-  margin: 0;
-  font-size: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-.section2 {
-  color: white;
-  position: relative;
-  background-image: url("https://static.pexels.com/photos/7539/pexels-photo.jpeg");
-  background-size: 800px 600px;
-  background-repeat: no-repeat;
-  height: 800px;
-  width: 800px;
-}
-
-.section2 h2 {
-  margin: 0;
-  font-size: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-.section3 {
-  color: white;
-  position: relative;
-  background-image: url("https://static.pexels.com/photos/5317/food-salad-restaurant-person.jpg");
-  background-size: 800px 600px;
-  background-repeat: no-repeat;
-  height: 800px;
-  width: 800px;
-}
-
-.section3 h2 {
-  margin: 0;
-  font-size: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
 .heading h1 {
   color: white;
   font-size: 100px;
 }
 
 img {
-  width: 100%;
-  height: auto;
+  width: 100% !important;
+  height: auto !important;
 }
 
 .top50 {
   height:50px;
 }
 
-.main2 img {
-  width: 500px;
-  height:auto;
+
+
+
+
+
+.topbar {
+  height: 50px;
+}
+.topbar h2 {
+  padding-bottom:10px;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+
+.kitchen {
+  background-image:url("http://tours.tourfactory.com/tours/media/scene/big2/00/15/41/39/15413926.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-bottom: 50px;
+}
+.jumbotron {
+  background-color: #0e90d2;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+.container h2{
+  font-size: 50px;
+  text-align: center;
+}
+.pageTitle h1 {
+  font-size: 60px;
+  padding-bottom: 50px;
 }

@@ -4,10 +4,11 @@
 <div class="main2" ng-controller="TopicController">
   <h1>{{place}}</h1>
   <h2>What meal are you planning for today?</h2>
-  <div class="breakfast" ng-click="redirect('Breakfast')">
-    <h3>Breakfast</h3>
-    <img ng-src="{{country.breakfastUrl}}">
-  </div>
+
+    <div class="breakfast" ng-click="redirect('Breakfast')">
+      <h3>Breakfast</h3>
+      <img ng-src="{{country.breakfastUrl}}">
+    </div>
 
   <div class="lunch" ng-click="redirect('Lunch')">
     <h3>Lunch</h3>
