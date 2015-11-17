@@ -1,6 +1,6 @@
 body {
-    background-color: #191970;
-    color: #FAFAD2;
+    background-color:#F0F8FF;
+    color: #002a80;
 }
 
 
@@ -36,6 +36,7 @@ img {
 
 .topbar {
   height: 50px;
+  background-color:#000066 ;
 }
 .topbar h2 {
   padding-bottom:10px;
@@ -48,10 +49,11 @@ img {
   background-image:url("http://tours.tourfactory.com/tours/media/scene/big2/00/15/41/39/15413926.jpg");
   background-repeat: no-repeat;
   height: 500px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .jumbotron {
-  background-color: #0e90d2;
+  background-color: #3CB371;
+  align-items:center;
   padding-top: 25px;
   padding-left: 25px;
   padding-right: 25px;
