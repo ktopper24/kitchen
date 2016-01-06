@@ -15,8 +15,8 @@ app.config(function($routeProvider) {
             templateUrl: '/client/views/recipe.html'
         })
         .when('/createRecipe', {
-          controller: 'CreateController',
-          templateUrl: '/client/views/create.html'
+            controller: 'CreateController',
+            templateUrl: '/client/views/create.html'
         })
         .when('/createCountry', {
             controller: 'CountryController',

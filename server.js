@@ -29,7 +29,7 @@ app.get('/recipes', function(req,res){
 
 app.post('/recipes', function(req,res){
   recipe.create({
-    RecipeName: req.body.RecipeName,
+    recipeName: req.body.recipeName,
     place: req.body.place,
     meal:req.body.meal,
     ingredients:req.body.ingredients,

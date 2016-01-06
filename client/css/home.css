@@ -3,22 +3,11 @@ body {
     color: #002a80;
 }
 
-
-.heading h1 {
-  text-align: left;
-  margin-left: 100px;
-  margin-top: 100px;
-}
-
 .row {
   margin-left: 50px;
   margin-right: 50px;
 }
 
-.heading h1 {
-  color: white;
-  font-size: 100px;
-}
 
 img {
   width: 100% !important;
@@ -29,28 +18,59 @@ img {
   height:50px;
 }
 
-
-
-
-
-
-.topbar {
-  height: 50px;
-  background-color:#000066 ;
-}
-.topbar h2 {
-  padding-bottom:10px;
-  padding-top: 10px;
-  font-size: 30px;
-}
-
-
 .kitchen {
   background-image:url("http://tours.tourfactory.com/tours/media/scene/big2/00/15/41/39/15413926.jpg");
   background-repeat: no-repeat;
   height: 500px;
   margin-bottom: 50px;
 }
+
+.navbar {
+  height: 50px;
+  background-color:#000066 ;
+  color: white;
+}
+.navbar h1 {
+  padding-bottom:10px;
+  padding-top: 10px;
+  font-size: 30px;
+  text-align: left
+}
+
+.navbar li {
+  display:inline;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+
+.navbar li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  color: white;
+}
+
+.navbar li a:hover {
+  background-color: #F0F8FF;
+}
+
+.active {
+  background-color: #3CB371;
+}
+
+
+.navbar .navbar-inverse .navbar-custom a {
+  color: #F7FBFC;
+}
+
+
 .jumbotron {
   background-color: #3CB371;
   align-items:center;
@@ -58,12 +78,30 @@ img {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .container h2{
   font-size: 50px;
   text-align: center;
 }
+
+.container h3 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.container h5 {
+  font-size: 30px;
+}
+
 .pageTitle h1 {
-  font-size: 60px;
+  font-size: 40px;
   padding-bottom: 50px;
+
+}
+
+.placeHeading h1 {
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
 }

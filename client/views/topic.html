@@ -2,27 +2,44 @@
 <html>
 
 <div class="main2" ng-controller="TopicController">
-  <h1>{{place}}</h1>
-  <h2>What meal are you planning for today?</h2>
+  <div class="placeHeading">
+    <h1>{{place}}</h1>
+  </div>
+  <div class="pageTitle">
+    <h1>What meal are you planning for today?</h1>
+  </div>
+  <div class="container">
+    <div class="jumbotron">
+      <div class="row row-eq-height">
+        <div class="col-xs-12 col-md-6 img-container">
+          <div class="breakfast" ng-click="redirect('Breakfast')">
+            <h3>Breakfast</h3>
+            <img ng-src="{{country.breakfastUrl}}">
+          </div>
+        </div>
 
-    <div class="breakfast" ng-click="redirect('Breakfast')">
-      <h3>Breakfast</h3>
-      <img ng-src="{{country.breakfastUrl}}">
+        <div class="col-xs-12 col-md-6">
+          <div class="lunch" ng-click="redirect('Lunch')">
+            <h3>Lunch</h3>
+            <img ng-src="{{country.lunchUrl}}">
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6">
+          <div class="dinner" ng-click="redirect('Dinner')">
+            <h3>Dinner</h3>
+            <img ng-src="{{country.dinnerUrl}}">
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6">
+          <div class="dessert" ng-click="redirect('Dessert')">
+            <h3>Dessert</h3>
+            <img ng-src="{{country.dessertUrl}}">
+          </div>
+        </div>
+      </div>
     </div>
-
-  <div class="lunch" ng-click="redirect('Lunch')">
-    <h3>Lunch</h3>
-    <img ng-src="{{country.lunchUrl}}">
-  </div>
-
-  <div class="dinner" ng-click="redirect('Dinner')">
-    <h3>Dinner</h3>
-    <img ng-src="{{country.dinnerUrl}}">
-  </div>
-
-  <div class="dessert" ng-click="redirect('Dessert')">
-    <h3>Dessert</h3>
-    <img ng-src="{{country.dessertUrl}}">
   </div>
 </div>
 

@@ -1,21 +1,34 @@
 <body>
     <div class="main3" ng-controller="RecipeController">
-      <h1>{{place}}</h1>
-      <h2>{{meal}}</h2>
-      {{error}}
-      <div class="recipes" ng-repeat="recipe in recipes | filter: {place: place} | filter: {meal: meal}">
-        <div class="title">
-          <h3> {{recipe.RecipeName}}</h3>
-        </div>
-        <div class ="ingredients">
-          <h3>Ingredients:</h3>
-          <p>  {{recipe.ingredients}}</p>
-        </div>
-        <div class="instructions">
-          <h3>Instructions:</h3>
-            <p>{{recipe.instructions}}</p>
-        </div>
+      <div class="placeHeading">
+        <h1>{{place}}</h1>
+      </div>
+      <div class="pageTitle">
+        <h1>{{meal}} Recipes</h1>
+      </div>
 
+      {{error}}
+      <div class="container">
+        <div class="jumbotron">
+          <div class="recipes" ng-repeat="recipe in recipes | filter: {place: place} | filter: {meal: meal}">
+            <div class="title">
+              <h3> {{recipe.recipeName}}</h3>
+            </div>
+            <div class ="ingredients">
+              <h5>Ingredients:</h5>
+              <ul>
+                <li ng-repeat="ingredient in recipe.ingredients">{{ingredient.ingredient}}</li>
+              </ul>
+            </div>
+            <div class="instructions">
+              <h5>Instructions:</h5>
+                <ol>
+                  <li ng-repeat="instruction in recipe.instructions">{{instruction.instruction}}</li>
+                </ol>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 </body>
